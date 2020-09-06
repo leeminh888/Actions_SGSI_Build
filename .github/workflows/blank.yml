@@ -25,7 +25,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: 下载SGSI工具
         run: |
-          wget https://github.com/xiaoxindada/SGSI-build-tool/releases/download/v1.0/SGSI-build-tool.tar
+          wget https://github.com/xiaoxindada/SGSI-build-tool/releases/download/V1.2/SGSI-build-tool.tar
           tar -xf SGSI-build-tool.tar
           sudo chmod -R 777 SGSI-build-tool
           cd SGSI-build-tool/10
